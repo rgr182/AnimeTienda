@@ -49,3 +49,101 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+#hero {
+    background-image: url('../img/anime1.jpeg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 600px;
+}
+
+.contenido{
+    color: white;
+}
+
+.contenido h2{
+    font-size: 3rem;
+}
+
+.contenido p{
+    font-size: 2rem;
+}
+
+/* PAGINA DE CONTACTO */
+.contenedor{
+    
+}
+
+
+main {
+    padding: 20px;
+}
+
+section#formulario, .contenedor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/*********************/
+
+/* PAGINA CATALAGO */
+.product button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+/******************/
