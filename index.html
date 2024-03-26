@@ -34,20 +34,26 @@
 
         section {
             padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         .product {
+            width: 250px;
             border: 1px solid #ccc;
             border-radius: 8px;
             padding: 10px;
-            margin-bottom: 20px;
+            margin: 10px;
             background-color: #fff;
+            text-align: center;
         }
 
         .product img {
             max-width: 100%;
             height: auto;
             border-radius: 4px;
+            margin-bottom: 10px;
         }
 
         footer {
@@ -55,6 +61,9 @@
             color: #fff;
             padding: 10px;
             text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -71,18 +80,20 @@
     </nav>
 
     <section>
+        
         <div class="product">
-            <img src="ejemplo_anime1.jpg" alt="Anime 1">
-            <h2>Nombre del Anime 1</h2>
-            <p>Descripción del Anime 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="Assets/dmon.jpg" alt="dmon">
+            <h2>Demon Slayer</h2>
+            <p>Anime 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>Precio: $19.99</p>
             <button>Añadir al carrito</button>
         </div>
 
+        <!-- Segundo producto -->
         <div class="product">
-            <img src="ejemplo_anime2.jpg" alt="Anime 2">
-            <h2>Nombre del Anime 2</h2>
-            <p>Descripción del Anime 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="Assets/evangelion.jpg" alt="Eva">
+            <h2>Neon Genesis Evangelion</h2>
+            <p>Anime 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>Precio: $24.99</p>
             <button>Añadir al carrito</button>
         </div>
